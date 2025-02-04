@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "ACC Review Stamp Tool",
   "version": "1.0",
-  "permissions": ["storage", "identity", "activeTab", "tabs"],
+  "permissions": ["storage", "identity", "activeTab", "tabs", "downloads"],
   "background": {
     "scripts": ["background.js"],
     "persistent": false
